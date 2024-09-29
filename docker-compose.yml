@@ -17,8 +17,6 @@ services:
     command:
       - "start-dev"
     networks:
-      - keycloak
-    networks:
       keycloak_network:
         ipv4_address: 172.16.0.2
 
